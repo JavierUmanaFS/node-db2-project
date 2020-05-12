@@ -7,7 +7,7 @@ exports.up = function(knex) {
     tbl.string("model", 128).notNullable();
     tbl.integer("mileage", 255).notNullable();
     tbl.string("transmission", 128);
-    tbl.string("title(clean/salvage,etc.)", 128);
+    tbl.string("title", 128);
 
     tbl.timestamp(true, true);
   })

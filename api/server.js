@@ -11,6 +11,6 @@ server.use(helmet());
 server.use(cors());
 server.use(express.json());
 
-server.use('/api/car-dealer', dealerRouter);
+server.use('/api/cars', dealerRouter);
 
 module.exports = server;
